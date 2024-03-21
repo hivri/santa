@@ -1,13 +1,5 @@
 let z=4;
-let y=1;
 
-console.log(document.getElementById("o2").checked);
-if(document.getElementById("o2").checked){
-    console.log(y);
-document.getElementById("n1").placeholder=`Enter Name ${y}`;
-document.getElementById("n2").placeholder=`Enter Name ${y+1}`;
-document.getElementById("n3").placeholder=`Enter Name ${y+2}`;
-}
 document.addEventListener("DOMContentLoaded", function() {
     const addButton = document.getElementById("addButton");
     const textBoxContainer = document.getElementById("textBoxContainer");
